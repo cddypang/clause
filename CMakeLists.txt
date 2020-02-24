@@ -69,6 +69,7 @@ add_definitions("-DGCC_DUMP_VERSION=\"${GCC_DUMP_VERSION}\"")
 
 
 # Install third party libs
+set(BOOSTROOT /home/panggj/Documents/opensource_libs/boost_1_72_0)
 include(${PROJECT_SOURCE_DIR}/cmake/default.cmake)
 
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})

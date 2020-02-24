@@ -13,7 +13,7 @@
  **/
 
 #include "client.h"
-
+#include <gflags/gflags.h>
 DECLARE_string(sysdicts_host);
 DECLARE_int32(sysdicts_port);
 
