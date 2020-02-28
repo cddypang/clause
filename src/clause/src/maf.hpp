@@ -13,7 +13,6 @@
 
 #include "marcos.h"
 #include "glog/logging.h"
-#include "mysql/jdbc.h"
 #include "basictypes.h"
 #include "TimeUtils.hpp"
 #include "StringUtils.hpp"
@@ -22,6 +21,8 @@
 #include <boost/algorithm/string.hpp>
 #include "serving/server_types.h"
 #include "intent.pb.h"
+#include <cppconn/statement.h>
+#include <cppconn/resultset.h>
 
 using namespace chatopera::utils;
 

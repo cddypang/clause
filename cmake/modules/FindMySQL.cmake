@@ -34,7 +34,7 @@ if( WIN32 )
 			  "$ENV{SYSTEMDRIVE}/MySQL/*/lib" )
 else()
 	find_path( MYSQL_INCLUDE_DIR
-		NAMES "mysql/jdbc.h"
+		NAMES "mysql_connection.h"
 		PATHS "${MYSQL_ROOT_DIR}/include/mysql")
 	
 	find_library( MYSQL_LIBRARY

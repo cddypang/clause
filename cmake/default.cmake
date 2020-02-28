@@ -21,9 +21,9 @@ include_directories(${GLOG_INCLUDE_DIR})
 link_libraries(${GLOG_LIBRARY})
 
 # Gperftools
-find_package(Gperftools REQUIRED)
-include_directories(${GPERFTOOLS_INCLUDE_DIR})
-link_libraries(${GPERFTOOLS_LIBRARIES})
+# find_package(Gperftools REQUIRED)
+# include_directories(${GPERFTOOLS_INCLUDE_DIR})
+# link_libraries(${GPERFTOOLS_LIBRARIES})
 
 # Google Test
 set(GTEST_ROOT ${PROJECT_SOURCE_DIR} CACHE PATH "Path to googletest")

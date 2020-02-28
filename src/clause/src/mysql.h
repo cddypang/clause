@@ -18,7 +18,8 @@
 
 #include <string>
 #include <sstream>
-#include "mysql/jdbc.h"
+#include <cppconn/connection.h>
+#include "boost/scoped_ptr.hpp"
 #include "gflags/gflags.h"
 #include "glog/logging.h"
 

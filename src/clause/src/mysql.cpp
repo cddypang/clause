@@ -15,6 +15,7 @@
 
 #include "mysql.h"
 #include <unistd.h>
+#include <cppconn/driver.h>
 
 namespace chatopera {
 namespace mysql {
@@ -34,7 +35,7 @@ bool MySQL::init() {
   /**
    * mysql connection
    */
-  sql::Driver * driver = sql::mysql::get_driver_instance();
+  sql::Driver * driver = get_driver_instance();
   sql::ConnectOptionsMap connection_properties;
   // https://dev.mysql.com/doc/connector-cpp/1.1/en/connector-cpp-connect-options.html
   connection_properties["hostName"] = FLAGS_mysql_uri; // uri 格式 tcp://host:port/db

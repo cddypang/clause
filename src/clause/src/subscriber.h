@@ -19,7 +19,6 @@
 #include "basictypes.h"
 #include "gflags/gflags.h"
 #include "intent.pb.h"
-#include "mysql/jdbc.h"
 #include "mysql.h"
 #include "redis.h"
 #include "raf.hpp"

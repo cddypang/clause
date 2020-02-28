@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
 project(CHATOPERA)
 
+set(BUID_TESTING OFF)
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 -fpermissive")
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3 -fpermissive")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -g -O0 -Wall -fpermissive")
 
 # prefer static library
 IF(WIN32)

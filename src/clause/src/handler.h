@@ -30,7 +30,6 @@
 #include "glog/logging.h"
 #include "serving/Serving.h"
 #include "serving/server_types.h"
-#include "mysql/jdbc.h"
 #include "redis.h"
 #include "intent.pb.h"
 #include "sysdicts/serving/server_types.h"

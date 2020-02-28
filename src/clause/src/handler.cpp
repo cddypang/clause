@@ -18,6 +18,8 @@
 #include "intent.pb.h"
 #include "maf.hpp"
 #include "raf.hpp"
+#include <cppconn/statement.h>
+#include <cppconn/resultset.h>
 
 using namespace std;
 using namespace chatopera::utils;

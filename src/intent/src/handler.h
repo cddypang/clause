@@ -26,7 +26,6 @@
 #include "glog/logging.h"
 #include "serving/Serving.h"
 #include "serving/server_types.h"
-#include "mysql/jdbc.h"
 #include "src/connection.h"
 #include "src/subscriber.h"
 #include "src/publisher.h"
